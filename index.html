@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parkavi P</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; background: #0f172a; color: #e2e8f0; }
+
+    header {
+      background: linear-gradient(135deg, #1e293b, #020617);
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #38bdf8;
+      margin-bottom: 15px;
+    }
+
+    header h1 { font-size: 2.5rem; }
+    header p { color: #38bdf8; margin: 10px 0; }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #38bdf8;
+      font-weight: 500;
+    }
+
+    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+
+    h2 { margin-bottom: 20px; color: #38bdf8; }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 15px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #38bdf8;
+      color: #020617;
+      padding: 8px 12px;
+      margin: 5px;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #38bdf8;
+      color: #020617;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header data-aos="fade-down">
+  <img src="https://via.placeholder.com/120" alt="Profile Photo">
+  <h1>Parkavi</h1>
+  <p>Python Intern</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about" data-aos="fade-up">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>I am a passionate Computer Science student and Python Intern. I enjoy building modern web applications and continuously learning new technologies.</p>
+    <a href="resume.pdf" download class="btn">Download Resume</a>
+  </div>
+</section>
+
+<section id="skills" data-aos="fade-up">
+  <h2>Skills</h2>
+  <div class="card skills">
+    <span>Python</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>SQL</span>
+  </div>
+</section>
+
+<section id="projects" data-aos="fade-up">
+  <h2>Projects</h2>
+  <div class="card">
+    <h3>Online Job Portal</h3>
+    <p>A web application that connects job seekers and recruiters. Users can register, search for jobs, and apply, while recruiters can post job listings.</p>
+  </div>
+  <div class="card">
+    <h3>Chatbot for Guiding Students through Admission Process</h3>
+    <p>A chatbot application designed to assist students with the admission process by providing information about courses, eligibility, fees, and application procedures in an interactive way.</p>
+  </div>
+</section>
+
+<section id="contact" data-aos="fade-up">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: palanikavi120705@gmail.com</p>
+    <p>Phone: 8098113400</p>
+  </div>
+</section>
+
+<footer data-aos="fade-up">
+  <p>© 2026 Parkavi</p>
+</footer>
+
+<!-- AOS Animation JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 1000 });
+</script>
+
+</body>
+</html>
